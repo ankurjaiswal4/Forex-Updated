@@ -1,0 +1,42 @@
+.currency-rates li {
+    list-style-type: none;
+    margin: 10px 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    display: flex;
+    width:500px;
+  }
+  .currency-rates .button-wrapper {
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10px;
+    border-left: 1px solid #d9d9d9;
+  }
+  .currency-rates .rate-info {
+    width: calc(100% - 40px);
+    float: left;
+    padding: 5px 10px;
+  }
+  .rate-info h3 {
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+  }
+  .rate-info .name {
+    float: left;
+  }
+  .rate-info .value {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+  }
+  .rate-info h5 {
+    font-style: italic;
+  }
+  .rate-info h4 {
+    font-style: italic;
+  }
+  

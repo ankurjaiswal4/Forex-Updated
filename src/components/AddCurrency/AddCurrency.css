@@ -1,0 +1,38 @@
+.add-section {
+    padding: 15px 15px 15px 15px;
+    width: 530px;
+    margin: auto;
+  }
+  .add-section button {
+    font-size: 18px;
+    padding: 3px 5px;
+    height: auto;
+  }
+  .add-section button span.ant-btn {
+    margin-right: 5px;
+  }
+  .add-section button .ant-btn .anticon {
+    line-height: 32px;
+  }
+  .add-section button:hover .ant-btn,
+  .add-section button:active .ant-btn {
+    color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  .add-section .add-button,
+  .add-section .submit-button {
+    height: 40px;
+  }
+  .add-section .submit-group {
+    display: flex;
+  }
+  .add-section .submit-button {
+    width: 99px;
+    text-align: center;
+    float: left;
+  }
+  .add-section .ant-select-lg {
+    width: 500px;
+    float: left;
+  }
+  
